@@ -118,7 +118,7 @@ Maintaining \(h(x) \ge 0\) guarantees forward invariance of the safe set.
 
 These results demonstrate that the safety filter successfully enforces safety constraints while minimally modifying the nominal control input.
 
-![Trajectory Comparison](/assets/px4-cbf/plots/trajectory_comparison.png)
+![Trajectory Comparison](/assets/gifs/px4-cbf/plots/trajectory_comparison.png)
 
 ### Comparison Summary
 | Metric | CBF OFF | CBF Only | CBF + Sliding |
