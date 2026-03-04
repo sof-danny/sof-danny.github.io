@@ -86,7 +86,7 @@ title: Home
     <div class="links">
       <a href="/papers/vr_ur3.pdf" target="_blank">Write-up</a>
         <a href="https://github.com/sof-danny/vr_ur3">Code</a>
-      <a href="#">Video</a>
+      <a href="https://drive.google.com/file/d/1JQicGon3gMT7v2XJytUEQzuHEKDI03KX/view">Video</a>
     </div>
   </div>
 
