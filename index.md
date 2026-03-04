@@ -4,22 +4,24 @@ title: Home
 ---
 
 <div class="hero">
+  <img class="portrait" src="/assets/img/portrait.jpg" alt="Portrait of Samuel Folorunsho" />
+
   <h1>Samuel Folorunsho</h1>
   <p class="subtitle">Robotics & Autonomy — multi-agent coordination, safe control (CBFs), perception/mapping, ROS 2.</p>
 
+  <div class="contact">
+    <a href="https://github.com/sof-danny" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:folorunshosamuel001@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/samuelofolorunsho/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://scholar.google.com/citations?user=vsYAVNYAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+  </div>
+
   <div class="badges">
-    <span class="badge">ROS 2</span>
-    <span class="badge">C++ / Python</span>
+    <span class="badge">ROS/ ROS 2</span>
+    <span class="badge">C++ / Python / MATLAB / Simulink</span>
     <span class="badge">Perception & Mapping</span>
     <span class="badge">Planning & Control</span>
     <span class="badge">Multi-Agent Systems</span>
-  </div>
-
-  <div class="cta">
-    <a href="/projects/">Projects</a>
-    <a href="/papers/">Papers</a>
-    <a href="/blog/">Blog</a>
-    <a href="https://github.com/sof-danny">GitHub</a>
   </div>
 </div>
 
@@ -30,7 +32,7 @@ title: Home
 <div class="grid">
 
   <div class="card">
-    <h3>Multi-Agent Infrastructure Inspection (Simulation)</h3>
+    <h3>Multi-Agent Infrastructure Inspection</h3>
     <p>Coordinated planning + task allocation for scalable infrastructure monitoring in simulation.</p>
     <div class="meta">
       <span class="tag">Multi-agent</span><span class="tag">Planning</span><span class="tag">ROS 2</span>

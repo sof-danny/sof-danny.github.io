@@ -31,3 +31,50 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
 .links a { text-decoration: none; border-bottom: 1px solid transparent; }
 .links a:hover { border-bottom-color: currentColor; }
 .section-title { margin-top: 28px; font-size: 20px; }
+/* Top navigation */
+.topnav {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  z-index: 10;
+}
+.nav-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand { font-weight: 600; text-decoration: none; }
+.nav-links { display: flex; gap: 14px; flex-wrap: wrap; }
+.nav-links a { text-decoration: none; border-bottom: 1px solid transparent; }
+.nav-links a:hover { border-bottom-color: currentColor; }
+
+/* Homepage hero */
+.hero { text-align: center; padding: 28px 0 10px; }
+.portrait {
+  width: 132px;
+  height: 132px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 12px;
+}
+
+/* Contact row */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 10px 0 6px;
+}
+.contact a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding: 4px 0;
+}
+.contact a:hover { border-bottom-color: currentColor; }
