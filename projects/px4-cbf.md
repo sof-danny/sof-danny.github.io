@@ -6,10 +6,10 @@ permalink: /projects/px4-cbf/
 
 # PX4 + ROS2 Control Barrier Function Safety Filter
 
-<img src="/assets/gifs/cbf_drone.gif" class="project-media" alt="PX4 ROS2 CBF safety filter demo">
+<img src="/assets/gifs/px4_cbf.gif" class="project-media" alt="PX4 ROS2 CBF safety filter demo">
 
 <div class="callout">
-<b>One-liner:</b> A real-time safety filter that minimally modifies a nominal controller to enforce obstacle-avoidance constraints for a PX4 drone via Control Barrier Functions (CBFs).
+A real-time safety filter that minimally modifies a nominal controller to enforce obstacle-avoidance constraints for a PX4 drone via Control Barrier Functions (CBFs).
 </div>
 
 ## Problem
@@ -73,16 +73,12 @@ Maintaining \(h(x) \ge 0\) guarantees forward invariance of the safe set.
 These results demonstrate that the safety filter successfully enforces safety constraints while minimally modifying the nominal control input.
 
 
-<div class="callout">
-<b>TODO (recommended):</b> Add 1 plot + 1 table: (1) minimum distance vs time, (2) QP solve-time stats.
-</div>
-
 ## How to Run (minimal)
 1. Build / source ROS2 workspace  
 2. Launch PX4 SITL  
 3. Start the safety filter node and run a scenario
 
-(Replace this with your actual commands once you confirm the current launch flow in your repo.)
+(see the repo for more details.)
 
 ## Tech Stack
 - ROS2
