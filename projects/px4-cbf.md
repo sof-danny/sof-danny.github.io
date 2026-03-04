@@ -118,7 +118,11 @@ Maintaining \(h(x) \ge 0\) guarantees forward invariance of the safe set.
 
 These results demonstrate that the safety filter successfully enforces safety constraints while minimally modifying the nominal control input.
 
-![Trajectory Comparison](/assets/gifs/px4-cbf/plots/trajectory_comparison.png)
+
+<img src="/assets/gifs/px4-cbf/plots/trajectory_comparison.png" class="project-media">
+<p class="caption">
+Comparison of trajectory for different scenario.
+</p>
 
 ## Comparison Summary
 <table style="width:100%; border-collapse:collapse; margin:1rem 0;">
