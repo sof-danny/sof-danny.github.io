@@ -46,8 +46,8 @@ title: Home
   </div>
 
   <div class="card">
-    <h3>GEM e2 Autonomy Suite</h3>
       <img class="project-media" src="/assets/gifs/gem_e2_nav.gif" alt="Gem e2 demo">
+    <h3>GEM e2 Autonomy Suite</h3>
     <p>Pedestrian distance control, LiDAR positioning, and Voronoi obstacle-map navigation.</p>
     <div class="meta">
       <span class="tag">Autonomous Driving</span><span class="tag">LiDAR</span><span class="tag">Navigation</span>
@@ -60,8 +60,8 @@ title: Home
   </div>
 
   <div class="card">
+       <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="PX4 CBF demo">
     <h3>PX4 + ROS 2 CBF Safety Filter (Drone)</h3>
-      <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="VR-UR3 demo">
     <p>Constraint-enforcing safety filter for PX4-controlled drone via control barrier functions.</p>
     <div class="meta">
       <span class="tag">CBF</span><span class="tag">PX4</span><span class="tag">ROS 2</span>
@@ -73,8 +73,8 @@ title: Home
   </div>
 
   <div class="card">
+       <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="UR3 VR demo">
     <h3>VR Teleoperation for UR3</h3>
-      <img class="project-media" src="/assets/gifs/husky_cbf.gif" alt="Husky CBF demo">
     <p>VR interface for UR3 end-effector control with a ROS 2 bridge.</p>
     <div class="meta">
       <span class="tag">VR</span><span class="tag">Manipulation</span><span class="tag">ROS 2</span>
@@ -86,6 +86,7 @@ title: Home
   </div>
 
   <div class="card">
+       <img class="project-media" src="/assets/gifs/husky_cbf.gif" alt="Husky Depth CBF demo">
     <h3>Husky Depth-Camera CBF Safety</h3>
     <p>Perception-to-safety pipeline using depth sensing and barrier-style constraints.</p>
     <div class="meta">
@@ -98,6 +99,7 @@ title: Home
   </div>
 
   <div class="card">
+       <img class="project-media" src="/assets/gifs/baclns.gif" alt="BaCLNS demo">
     <h3>BaCLNS</h3>
     <p>Python package for automated backstepping controller design, simulation, and analysis.</p>
     <div class="meta">
@@ -111,7 +113,7 @@ title: Home
   </div>
 
 </div>
-
+multim
 <h2 class="section-title">Next C++ Build</h2>
 
 <div class="card">
