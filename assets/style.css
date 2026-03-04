@@ -85,3 +85,11 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   margin-bottom:10px;
   border:1px solid #e7e7e7;
 }
+
+.bio{
+  max-width:700px;
+  margin:10px auto 18px auto;
+  font-size:15px;
+  line-height:1.6;
+  opacity:0.9;
+}

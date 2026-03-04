@@ -7,7 +7,15 @@ title: Home
   <img class="portrait" src="/assets/img/sam.jpeg" alt="Portrait of Samuel Folorunsho" />
 
   <h1>Samuel Folorunsho</h1>
-  <p class="subtitle">Robotics & Autonomy — multi-agent coordination, safe control (CBFs), perception/mapping, ROS 2.</p>
+
+  <p class="subtitle">Robotics & Autonomy</p>
+
+  <p class="bio">
+    Hello and welcome. I’m Sam Folorunsho, a graduate student at the University of Illinois Urbana-Champaign (UIUC). 
+    My work focuses on perception-driven autonomy, motion planning, safe control, and optimal trajectory generation 
+    for multi-agent robotic systems. I design and implement end-to-end autonomy stacks using ROS2 and C++/Python, 
+    and evaluate them across both physical robotic platforms and modern simulation environments.
+  </p>
 
   <div class="contact">
     <a href="https://github.com/sof-danny" target="_blank" rel="noopener">GitHub</a>
