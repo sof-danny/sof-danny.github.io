@@ -84,7 +84,8 @@ title: Home
       <span class="tag">VR</span><span class="tag">Manipulation</span><span class="tag">ROS 2</span>
     </div>
     <div class="links">
-      <a href="/projects/#vr-ur3">Write-up</a>
+      <a href="/papers/vr_ur3.pdf" target="_blank">Write-up</a>
+        <a href="https://github.com/sof-danny/vr_ur3">Code</a>
       <a href="#">Video</a>
     </div>
   </div>
