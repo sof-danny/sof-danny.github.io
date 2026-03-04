@@ -4,12 +4,16 @@ title: Home
 ---
 
 # Samuel Folorunsho
-Robotics | Autonomy Systems | Multi-agent coordination | Safe control
+Robotics & Autonomy Systems — multi-agent coordination, safe control (CBFs), perception/mapping, and ROS 2 deployment.
 
-**Portfolio:** [Projects](/projects)  
-**Papers:** [Papers & PDFs](/papers)
+**Projects:** [/projects](/projects/)  
+**Papers:** [/papers](/papers/)  
+**About:** [/about](/about/)
 
-## Highlight Projects
-- **Tethered UAV + UGV Coordination** — safe control + constraints  
-- **Multi-agent autonomy stack (ROS 2, C++/Python)** — mapping, planning, coordination  
-- **Perception / Infrastructure Monitoring** — detection, SLAM, inspection planning
+## Highlights
+- **Multi-agent infrastructure inspection (sim)** — coordination + scalable planning  
+- **GEM e2 autonomy suite** — pedestrian distance control, LiDAR positioning, Voronoi navigation  
+- **PX4 + ROS 2 CBF safety filter (drone)** — constraint enforcement in simulation  
+- **VR teleop for UR3** — immersive manipulation interface  
+- **CBF for ground robot safety (Husky + depth camera)**  
+- **BaCLNS** — backstepping control package
