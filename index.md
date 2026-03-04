@@ -17,11 +17,15 @@ title: Home
   </div>
 
   <div class="badges">
-    <span class="badge">ROS/ ROS 2</span>
-    <span class="badge">C++ / Python / MATLAB / Simulink</span>
+    <span class="badge">Robotics</span>
+      <span class="badge"> ROS / ROS2 </span 
+    <span class="badge">C / C++ / Python / MATLAB / Simulink</span>
+      <span class="badge"> Gazebo / Isaac Sim / MuJoCo</span                                              
     <span class="badge">Perception & Mapping</span>
     <span class="badge">Planning & Control</span>
     <span class="badge">Multi-Agent Systems</span>
+      <span class="badge">Safe & Optimal Control</span>
+      <span class="badge">Computer Vision & Image Processing</span>
   </div>
 </div>
 
