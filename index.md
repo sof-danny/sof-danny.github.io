@@ -11,7 +11,7 @@ title: Home
   <p class="subtitle">Robotics & Autonomy</p>
 
   <p class="bio">
-    Hello and welcome. I’m Sam Folorunsho, a graduate student at the University of Illinois Urbana-Champaign (UIUC). 
+    Hello and welcome. I’m Samuel Folorunsho, a graduate student at the University of Illinois Urbana-Champaign (UIUC). 
     My work focuses on perception-driven autonomy, motion planning, safe control, and optimal trajectory generation 
     for multi-agent robotic systems. I design and implement end-to-end autonomy stacks using ROS2 and C++/Python, 
     and evaluate them across both physical robotic platforms and modern simulation environments.
@@ -83,7 +83,7 @@ title: Home
     </div>
     <div class="links">
       <a href="https://github.com/sof-danny/px4-ros2-cbf-safety-filter">Code</a>
-      <a href="/projects/#px4-cbf">Write-up</a>
+      <a href="/projects/px4-cbf/">Write-up</a>
     </div>
   </div>
 
