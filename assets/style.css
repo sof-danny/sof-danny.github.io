@@ -78,3 +78,10 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   padding: 4px 0;
 }
 .contact a:hover { border-bottom-color: currentColor; }
+
+.project-media{
+  width:100%;
+  border-radius:10px;
+  margin-bottom:10px;
+  border:1px solid #e7e7e7;
+}
