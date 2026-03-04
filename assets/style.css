@@ -105,3 +105,44 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   opacity:0.9;
 }
 
+.callout{
+  border: 1px solid #e7e7e7;
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 14px 0;
+}
+
+.arch{
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  padding: 14px;
+  margin: 10px 0 16px;
+  background: #fff;
+}
+.arch-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.arch-box{
+  border: 1px solid #eee;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-width: 210px;
+  text-align: center;
+}
+.arch-arrow{
+  font-weight: 600;
+  opacity: 0.7;
+}
+.arch-note{
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0.85;
+  font-size: 14px;
+}
+
