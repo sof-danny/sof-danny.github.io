@@ -3,3 +3,5 @@ description: Robotics portfolio — multi-agent autonomy, mapping, safe control
 theme: minima
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
+kramdown:
+  math_engine: null
