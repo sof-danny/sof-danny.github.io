@@ -162,3 +162,13 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   margin-bottom:20px;
 }
 
+.gif-table {
+  width: 100%;
+  table-layout: fixed;  /* equal column widths */
+}
+
+.gif-table img {
+  width: 100%;
+  height: auto;
+}
+
