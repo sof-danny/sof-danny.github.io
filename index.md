@@ -49,7 +49,7 @@ title: Home
   <div class="card">
     <img class="project-media" src="/assets/gifs/multi_agent.gif" alt="Multi agent inspection demo">
     <h3>Multi-Agent Infrastructure Inspection</h3>
-    <p>Coordinated planning + task allocation for scalable infrastructure monitoring in simulation (Proprietary)</p>
+    <p>Coordinated planning + task allocation for scalable infrastructure monitoring in simulation (Proprietary).</p>
     <div class="meta">
       <span class="tag">Multi-agent</span><span class="tag">Planning</span><span class="tag">ROS 2</span> <span class="tag">Gazebo</span>
     </div>
@@ -76,7 +76,7 @@ title: Home
 
   <div class="card">
        <img class="project-media" src="/assets/gifs/px4_cbf.gif" alt="PX4 CBF demo">
-    <h3>PX4 + ROS 2 CBF Safety Filter (Drone)</h3>
+    <h3>PX4 + ROS 2 CBF Safety Filter</h3>
     <p>Constraint-enforcing safety filter for PX4-controlled drone via control barrier functions.</p>
     <div class="meta">
       <span class="tag">CBF</span><span class="tag">PX4</span><span class="tag">ROS 2</span>

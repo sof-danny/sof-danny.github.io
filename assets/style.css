@@ -36,9 +36,9 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
 }
 .card h3 { margin: 0 0 6px; font-size: 18px; }
 .card p { margin: 0 0 10px; opacity: 0.9; }
-.meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 12px; }
+.meta {display: flex; justify-content: center; flex-wrap: wrap; gap: 6px;margin-top: 8px;}
 .tag { font-size: 12px; padding: 4px 8px; border: 1px solid #eee; border-radius: 999px; background: #fafafa; }
-.links { display: flex; gap: 12px; flex-wrap: wrap; }
+.links {display: flex; justify-content: center; gap: 12px; margin-top: 8px;}
 .links a { text-decoration: none; border-bottom: 1px solid transparent; }
 .links a:hover { border-bottom-color: currentColor; }
 .section-title { margin-top: 28px; font-size: 20px; }
@@ -179,4 +179,12 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   display: block;
   margin: 0 auto;
 }
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  background: #fafafa;
+}
+
 
