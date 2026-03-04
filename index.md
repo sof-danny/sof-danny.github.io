@@ -40,7 +40,7 @@ title: Home
     <h3>Multi-Agent Infrastructure Inspection</h3>
     <p>Coordinated planning + task allocation for scalable infrastructure monitoring in simulation.</p>
     <div class="meta">
-      <span class="tag">Multi-agent</span><span class="tag">Planning</span><span class="tag">ROS 2</span>
+      <span class="tag">Multi-agent</span><span class="tag">Planning</span><span class="tag">ROS 2</span> <span class="tag">Gazebo</span><span class="tag">PX4 </span>
     </div>
     <div class="links">
       <a href="/projects/#multi-agent">Write-up</a>
