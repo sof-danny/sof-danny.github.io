@@ -114,12 +114,26 @@ These results demonstrate that the safety filter successfully enforces safety co
 - MicroXRCE-DDS-Agent  
 - Python: `pip install cvxpy osqp matplotlib numpy`
 
-## How to Run (minimal)
-```bash
-source /opt/ros/humble/setup.bash
-cd ~/ros2_ws/px4-ros2-cbf-safety-filter
-colcon build
-```
+## How to Run
+
+# Terminal 1: Agent
+`./tools/start_agent.sh`
+
+# Terminal 2: PX4 + gz-sim with obstacles
+`./tools/spawn_drone.sh`
+
+# Terminal 3: Controller
+`source /opt/ros/humble/setup.bash`
+`source install/setup.bash`
+
+# WITH CBF (safe):
+`ros2 launch cbf_demo_bringup cbf_demo.launch.py use_cbf:=true`
+
+# WITHOUT CBF (collision):
+`ros2 launch cbf_demo_bringup cbf_demo.launch.py use_cbf:=false`
+
+# Terminal 4: RViz2
+`rviz2 -d $(ros2 pkg prefix cbf_demo_bringup)/share/cbf_demo_bringup/config/cbf_viz.rviz`
 
 ## Tech Stack
 - ROS2
