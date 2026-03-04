@@ -120,6 +120,21 @@ These results demonstrate that the safety filter successfully enforces safety co
 
 ![Trajectory Comparison](/assets/px4-cbf/plots/trajectory_comparison.png)
 
+### Comparison Summary
+| Metric | CBF OFF | CBF Only | CBF + Sliding |
+|--------|---------|----------|---------------|
+| Min barrier h(x) | -0.975 | 0.036 | 0.491 |
+| Min distance (m) | 1.505 | 1.810 | 1.932 |
+| Safety violated | YES | NO | NO |
+| Collision | YES | NO | NO |
+| Reached target | NO (crash) | YES | YES |
+| Flight time (s) | 7.5 | 87.4 | 64.2 |
+
+Key observations:
+- **CBF Only**: Safe but inefficient (zigzags around obstacles, 36% slower)
+- **CBF + Sliding**: Safe and efficient (smooth curves, better safety margin)
+
+
 
 
 ## Prerequisites
@@ -161,5 +176,8 @@ These results demonstrate that the safety filter successfully enforces safety co
 - **Code:** [px4-ros2-cbf-safety-filter](https://github.com/sof-danny/px4-ros2-cbf-safety-filter)  
 - **README:** [Documentation](https://github.com/sof-danny/px4-ros2-cbf-safety-filter/blob/main/README.md)
 
-
+## References
+- Ames et al., "Control Barrier Functions: Theory and Applications", 2019
+- Federica Ferraguti et al. "Safety and Efficiency in Robotics: the Control Barrier Functions Approach", 2022
+- [CBF Tutorial Repository](resource/cbf/code/)
 
