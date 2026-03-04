@@ -56,7 +56,7 @@ This guarantees forward invariance of the safe set under standard CBF conditions
 ## Results
 We evaluate the safety filter by monitoring the barrier function \(h(x)\) during simulation.
 
-<img src="/assets/imag/cbf_results.png" class="project-media">
+<img src="/assets/img/cbf_results.png" class="project-media">
 <p class="caption">
 Barrier function evolution under different controllers. Safety is guaranteed when \(h(x) \ge 0\).
 </p>
