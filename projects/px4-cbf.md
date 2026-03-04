@@ -121,14 +121,26 @@ These results demonstrate that the safety filter successfully enforces safety co
 ![Trajectory Comparison](/assets/gifs/px4-cbf/plots/trajectory_comparison.png)
 
 ## Comparison Summary
-| Metric | CBF OFF | CBF Only | CBF + Sliding |
-|--------|---------|----------|---------------|
-| Min barrier h(x) | -0.975 | 0.036 | 0.491 |
-| Min distance (m) | 1.505 | 1.810 | 1.932 |
-| Safety violated | YES | NO | NO |
-| Collision | YES | NO | NO |
-| Reached target | NO (crash) | YES | YES |
-| Flight time (s) | 7.5 | 87.4 | 64.2 |
+<table style="width:100%; border-collapse:collapse; margin:1rem 0;">
+  <thead>
+    <tr style="background:#f4f4f4;">
+      <th style="border:1px solid #ddd; padding:8px;">Metric</th>
+      <th style="border:1px solid #ddd; padding:8px;">CBF OFF</th>
+      <th style="border:1px solid #ddd; padding:8px;">CBF Only</th>
+      <th style="border:1px solid #ddd; padding:8px;">CBF + Sliding</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Min barrier h(x)</td><td style="border:1px solid #ddd; padding:8px;">-0.975</td><td style="border:1px solid #ddd; padding:8px;">0.036</td><td style="border:1px solid #ddd; padding:8px;">0.491</td></tr>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Min distance (m)</td><td style="border:1px solid #ddd; padding:8px;">1.505</td><td style="border:1px solid #ddd; padding:8px;">1.810</td><td style="border:1px solid #ddd; padding:8px;">1.932</td></tr>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Safety violated</td><td style="border:1px solid #ddd; padding:8px; color:red;">YES</td><td style="border:1px solid #ddd; padding:8px; color:green;">NO</td><td style="border:1px solid #ddd; padding:8px; color:green;">NO</td></tr>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Collision</td><td style="border:1px solid #ddd; padding:8px; color:red;">YES</td><td style="border:1px solid #ddd; padding:8px; color:green;">NO</td><td style="border:1px solid #ddd; padding:8px; color:green;">NO</td></tr>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Reached target</td><td style="border:1px solid #ddd; padding:8px; color:red;">NO (crash)</td><td style="border:1px solid #ddd; padding:8px; color:green;">YES</td><td style="border:1px solid #ddd; padding:8px; color:green;">YES</td></tr>
+    <tr><td style="border:1px solid #ddd; padding:8px;">Flight time (s)</td><td style="border:1px solid #ddd; padding:8px;">7.5</td><td style="border:1px solid #ddd; padding:8px;">87.4</td><td style="border:1px solid #ddd; padding:8px;">64.2</td></tr>
+  </tbody>
+</table>
+
+
 
 Key observations:
 - **CBF Only**: Safe but inefficient (zigzags around obstacles, 36% slower)
