@@ -60,7 +60,7 @@ title: Home
   </div>
 
   <div class="card">
-       <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="PX4 CBF demo">
+       <img class="project-media" src="/assets/gifs/px4_cbf.gif" alt="PX4 CBF demo">
     <h3>PX4 + ROS 2 CBF Safety Filter (Drone)</h3>
     <p>Constraint-enforcing safety filter for PX4-controlled drone via control barrier functions.</p>
     <div class="meta">
