@@ -53,12 +53,25 @@ This guarantees forward invariance of the safe set under standard CBF conditions
 - Integrates with **PX4 SITL**
 - Supports obstacle-avoidance constraints using a distance-based barrier function
 
-## Results (what to show here)
-If you have any of these, add them (even one is enough):
-- Minimum distance to obstacle maintained (plot)
-- Tracking performance before vs after filtering (plot)
-- QP solve time statistics (mean / p95)
-- Failure cases and how constraints prevent them
+## Results
+We evaluate the safety filter by monitoring the barrier function \(h(x)\) during simulation.
+
+<img src="/assets/imag/cbf_results.png" class="project-media">
+<p class="caption">
+Barrier function evolution under different controllers. Safety is guaranteed when \(h(x) \ge 0\).
+</p>
+
+The figure above shows the evolution of the barrier function \(h(x)\) over time for three cases:
+
+- **No CBF (red):** the nominal controller violates the safety constraint, causing the barrier function to become negative. This corresponds to the system entering an unsafe region.
+- **CBF only (orange):** the control barrier function modifies the nominal input to maintain \(h(x) \ge 0\), enforcing safety.
+- **CBF + sliding controller (blue):** combining the safety filter with a sliding-mode controller improves robustness and keeps the system further away from the safety boundary.
+
+The dashed line represents the **safety boundary \(h(x)=0\)**.  
+Maintaining \(h(x) \ge 0\) guarantees forward invariance of the safe set.
+
+These results demonstrate that the safety filter successfully enforces safety constraints while minimally modifying the nominal control input.
+
 
 <div class="callout">
 <b>TODO (recommended):</b> Add 1 plot + 1 table: (1) minimum distance vs time, (2) QP solve-time stats.
