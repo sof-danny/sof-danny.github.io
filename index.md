@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="hero">
-  <img class="portrait" src="/assets/img/portrait.jpg" alt="Portrait of Samuel Folorunsho" />
+  <img class="portrait" src="/assets/img/sam.jpeg" alt="Portrait of Samuel Folorunsho" />
 
   <h1>Samuel Folorunsho</h1>
   <p class="subtitle">Robotics & Autonomy — multi-agent coordination, safe control (CBFs), perception/mapping, ROS 2.</p>
