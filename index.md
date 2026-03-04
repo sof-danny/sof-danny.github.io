@@ -99,7 +99,7 @@ title: Home
   </div>
 
   <div class="card">
-       <img class="project-media" src="/assets/gifs/baclns.gif" alt="BaCLNS demo">
+       <img class="project-media" src="/assets/gifs/baclns.png" alt="BaCLNS Sample Result">
     <h3>BaCLNS</h3>
     <p>Python package for automated backstepping controller design, simulation, and analysis.</p>
     <div class="meta">
