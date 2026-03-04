@@ -194,5 +194,5 @@ Key observations:
 ## References
 - Ames et al., "Control Barrier Functions: Theory and Applications", 2019
 - Federica Ferraguti et al. "Safety and Efficiency in Robotics: the Control Barrier Functions Approach", 2022
-- [CBF Tutorial Repo](https://github.com/sof-danny/px4-ros2-cbf-safety-filter/resource/cbf/code/)
+- [CBF Tutorial Repo](https://github.com/sof-danny/px4-ros2-cbf-safety-filter/tree/main/cbf/code)
 
