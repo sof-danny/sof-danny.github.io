@@ -131,12 +131,12 @@ title: Home
 
 </div>
 multim
-<h2 class="section-title">Next C++ Build</h2>
+<!-- <h2 class="section-title">Next C++ Build</h2> -->
 
-<div class="card">
+<!-- <div class="card">
   <h3>C++ LiDAR Mapping / Localization (in progress)</h3>
   <p>ROS 2 node: scan matching (ICP/NDT), voxel filtering, local submap management, runtime benchmarks.</p>
   <div class="meta">
     <span class="tag">C++</span><span class="tag">LiDAR</span><span class="tag">Mapping</span><span class="tag">ROS 2</span>
   </div>
-</div>
+</div> -->
