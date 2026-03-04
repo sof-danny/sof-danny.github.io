@@ -63,31 +63,31 @@ The goal is to enforce safety **without redesigning** the full controller.
 
 **Single-integrator dynamics** (position-controlled UAV):
 
-\[
+$$
 \dot{x} = u \quad \text{where } x = [p_x, p_y],\; u = [v_x, v_y]
-\]
+$$
 
 **Barrier function** for a circular obstacle:
 
-\[
+$$
 h(x) = \|x - x_{\text{obs}}\|^2 - d_{\text{safe}}^2
-\]
+$$
 
-- \(h>0\): safe region  
-- \(h=0\): safety boundary  
-- \(h<0\): unsafe (collision imminent)
+- $h>0$: safe region  
+- $h=0$: safety boundary  
+- $h<0$: unsafe (collision imminent)
 
 **CBF constraint** (forward invariance of safe set):
 
-\[
+$$
 \dot{h} + \alpha h \ge 0
 \qquad\Longleftrightarrow\qquad
 \nabla h(x)^\top u \ge -\alpha h(x)
-\]
+$$
 
 **QP-CBF formulation**:
 
-\[
+$$
 \begin{aligned}
 \min_{u,\delta}\quad & \|u-u_{\text{nom}}\|^2 + \lambda\delta^2 \\
 \text{s.t.}\quad
@@ -95,9 +95,9 @@ h(x) = \|x - x_{\text{obs}}\|^2 - d_{\text{safe}}^2
 & \|u\| \le v_{\max} \\
 & \delta \ge 0
 \end{aligned}
-\]
+$$
 
-Where \(\delta\) is a relaxation variable to ensure feasibility. The QP solver (**OSQP via cvxpy**) finds the closest safe velocity to the nominal command.
+Where $\delta$ is a relaxation variable to ensure feasibility. The QP solver (**OSQP via cvxpy**) finds the closest safe velocity to the nominal command.
 
 ## Results
 We evaluate the safety filter by monitoring the barrier function \(h(x)\) during simulation.
