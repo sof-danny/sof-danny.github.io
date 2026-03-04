@@ -5,7 +5,17 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
 }
 .hero h1 { margin-bottom: 6px; }
 .subtitle { margin: 0; opacity: 0.85; }
-.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.badges + .badges {
+  margin-top: 6px;
+}
 .badge { font-size: 13px; padding: 6px 10px; border: 1px solid #e7e7e7; border-radius: 999px; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
 .cta a { text-decoration: none; border-bottom: 1px solid transparent; }
@@ -94,14 +104,3 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   opacity:0.9;
 }
 
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.badges + .badges {
-  margin-top: 6px;
-}
