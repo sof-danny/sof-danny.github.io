@@ -18,9 +18,12 @@ title: Home
   <div class="cta">
     <a href="/projects/">Projects</a>
     <a href="/papers/">Papers</a>
+    <a href="/blog/">Blog</a>
     <a href="https://github.com/sof-danny">GitHub</a>
   </div>
 </div>
+
+
 
 <h2 class="section-title">Featured Projects</h2>
 
