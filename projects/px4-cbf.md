@@ -120,7 +120,7 @@ These results demonstrate that the safety filter successfully enforces safety co
 
 ![Trajectory Comparison](/assets/gifs/px4-cbf/plots/trajectory_comparison.png)
 
-### Comparison Summary
+## Comparison Summary
 | Metric | CBF OFF | CBF Only | CBF + Sliding |
 |--------|---------|----------|---------------|
 | Min barrier h(x) | -0.975 | 0.036 | 0.491 |
@@ -136,7 +136,6 @@ Key observations:
 
 
 
-
 ## Prerequisites
 - Ubuntu 22.04 + ROS 2 Humble  
 - gz-sim Harmonic (v8)  
@@ -146,23 +145,23 @@ Key observations:
 
 ## How to Run
 
-# Terminal 1: Agent
+### Terminal 1: Agent
 `./tools/start_agent.sh`
 
-# Terminal 2: PX4 + gz-sim with obstacles
+### Terminal 2: PX4 + gz-sim with obstacles
 `./tools/spawn_drone.sh`
 
-# Terminal 3: Controller
+### Terminal 3: Controller
 `source /opt/ros/humble/setup.bash`
 `source install/setup.bash`
 
-# WITH CBF (safe):
+### WITH CBF (safe):
 `ros2 launch cbf_demo_bringup cbf_demo.launch.py use_cbf:=true`
 
-# WITHOUT CBF (collision):
+### WITHOUT CBF (collision):
 `ros2 launch cbf_demo_bringup cbf_demo.launch.py use_cbf:=false`
 
-# Terminal 4: RViz2
+### Terminal 4: RViz2
 `rviz2 -d $(ros2 pkg prefix cbf_demo_bringup)/share/cbf_demo_bringup/config/cbf_viz.rviz`
 
 ## Tech Stack
