@@ -8,13 +8,13 @@ permalink: /projects/px4-cbf/
 
 Control Barrier Function (CBF) safety filter demo for UAV obstacle avoidance using **PX4 SITL**, **ROS 2 Humble**, and **gz-sim Harmonic**.
 
-<div class="gif-table">
+<div class="gif-table" markdown="1">
 
-| No CBF (Collision) | CBF Only (Zigzag) | CBF + Sliding (Smooth) |
-|:------------------:|:-----------------:|:----------------------:|
-| ![No CBF](/assets/px4-cbf/gifs/no_cbf_fast.gif) | ![CBF Only](/assets/px4-cbf/gifs/cbf_no_sliding_fast.gif) | ![CBF + Sliding](/assets/px4-cbf/gifs/cbf_sliding_fast.gif) |
-| Crashes at obstacle 1 | Safe but slow (87s) | Safe and fast (64s) |
-
+    | No CBF (Collision) | CBF Only (Zigzag) | CBF + Sliding (Smooth) |
+    |:------------------:|:-----------------:|:----------------------:|
+    | ![No CBF](/assets/px4-cbf/gifs/no_cbf_fast.gif) | ![CBF Only](/assets/px4-cbf/gifs/cbf_no_sliding_fast.gif) | ![CBF + Sliding](/assets/px4-cbf/gifs/cbf_sliding_fast.gif) |
+    | Crashes at obstacle 1 | Safe but slow (87s) | Safe and fast (64s) |
+    
 </div>
 
 ## Problem
