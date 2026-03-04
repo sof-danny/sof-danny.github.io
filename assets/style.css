@@ -10,7 +10,8 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  margin-top: 12px;
+  margin: 12px auto;
+  max-width: 700px;
 }
 
 .badges + .badges {
