@@ -18,9 +18,9 @@ Control Barrier Function (CBF) safety filter demo for UAV obstacle avoidance usi
   </thead>
   <tbody>
     <tr>
-      <td align="center"><img src="/assets/px4-cbf/gifs/no_cbf_fast.gif" alt="No CBF"></td>
-      <td align="center"><img src="/assets/px4-cbf/gifs/cbf_no_sliding_fast.gif" alt="CBF Only"></td>
-      <td align="center"><img src="/assets/px4-cbf/gifs/cbf_sliding_fast.gif" alt="CBF + Sliding"></td>
+      <td align="center"><img src="/assets/gifs/px4-cbf/gifs/no_cbf_fast.gif" alt="No CBF"></td>
+      <td align="center"><img src="/assets/gifs/px4-cbf/gifs/cbf_no_sliding_fast.gif" alt="CBF Only"></td>
+      <td align="center"><img src="/assets/gifs/px4-cbf/gifs/cbf_sliding_fast.gif" alt="CBF + Sliding"></td>
     </tr>
     <tr>
       <td align="center">Crashes at obstacle 1</td>
