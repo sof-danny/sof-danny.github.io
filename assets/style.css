@@ -93,3 +93,15 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   line-height:1.6;
   opacity:0.9;
 }
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.badges + .badges {
+  margin-top: 6px;
+}
