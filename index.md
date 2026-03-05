@@ -180,7 +180,7 @@ title: Home
 
 
 <div class="card">
-    <img class="project-media" src="/assets/gifs/gem_e2/voronoi.gif" alt="Voronoi demo">
+    <img class="project-media" src="/assets/gifs/gem_e2/voronoi_cropped.gif" alt="Voronoi demo">
   <h3>GEM e2 Voronoi Navigation</h3>
   <p>LiDAR-based obstacle mapping with Voronoi diagram path planning and GPS-guided pure pursuit control for autonomous summoning on a Polaris GEM vehicle.</p>
   <div class="meta">

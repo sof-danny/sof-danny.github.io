@@ -8,6 +8,7 @@ permalink: /software/
 <div class="grid">
 
   <div class="card">
+      <img class="project-media" src="/assets/gifs/spannotation/overview.png" alt="Spannotation sample result">
     <h3>Spannotation</h3>
     <p>Open-source image annotation tool for semantic segmentation in autonomous navigation, achieving annotation in ~6 seconds per image — over 6× faster than existing tools.</p>
     <div class="meta">
