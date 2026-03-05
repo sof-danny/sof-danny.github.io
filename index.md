@@ -68,7 +68,7 @@ title: Home
       <span class="tag">Autonomous Driving</span><span class="tag">Stereo Camera</span><span class="tag">Navigation Safety</span>
     </div>
     <div class="links">
-      <a href="/projects/#gem-e2">Write-up</a>
+      <a href="/projects/dist_to_ped/">Write-up</a>
       <a href="#">Video</a>
       <a href="#">Code</a>
     </div>
@@ -178,5 +178,24 @@ title: Home
   </div>
 </div>
 
+
+<div class="card">
+    <img class="project-media" src="/assets/gifs/gem_e2/voronoi.gif" alt="Voronoi demo">
+  <h3>GEM e2 Voronoi Navigation</h3>
+  <p>LiDAR-based obstacle mapping with Voronoi diagram path planning and GPS-guided pure pursuit control for autonomous summoning on a Polaris GEM vehicle.</p>
+  <div class="meta">
+    <span class="tag">Autonomous Driving</span>
+    <span class="tag">LiDAR</span>
+    <span class="tag">Path Planning</span>
+    <span class="tag">Voronoi</span>
+  </div>
+  <div class="links">
+    <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Voronoi%20obstacle%20map%20and%20autonomous%20navigation/Code" target="_blank">Code</a>
+      <a href="https://drive.google.com/file/d/1ixq9S3DUYFpo9bVkba6YkmbjmpPkaKGe/view?usp=sharing" target="_blank">Video</a>
+      <a href="/projects/voronoi/" target="_blank">Write-up</a>
+  </div>
+</div>
+
+  
 </div>
 
