@@ -22,6 +22,7 @@ title: Home
     <a href="https://github.com/sof-danny" target="_blank" rel="noopener">GitHub</a>
     <a href="mailto:folorunshosamuel001@gmail.com">Email</a>
     <a href="https://www.linkedin.com/in/samuelofolorunsho/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="/assets/cv/SamFolorunshoCV_Feb11_26_redacted.pdf" target="_blank" rel="noopener">Resume</a>
     <a href="https://scholar.google.com/citations?user=vsYAVNYAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
   </div>
 
