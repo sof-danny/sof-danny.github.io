@@ -31,7 +31,7 @@ The central challenge in robotics perception is not computation — it is uncert
 
 The figure below illustrates both effects. The left plot shows ideal motion — a robot that moves exactly as commanded. The right shows realistic motion, where each step accumulates a small random error.
 
-![Simple vs Noisy Motion](/assets/blog/perception/noisy_motion.png)
+![Simple vs Noisy Motion](/assets/blog/perception/chap_1/noisy_motion.png)
 
 ---
 
