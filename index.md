@@ -115,7 +115,7 @@ title: Home
     </div>
   </div>
 
-  <div class="card">
+  <!-- <div class="card">
        <img class="project-media" src="/assets/gifs/baclns.png" alt="BaCLNS Sample Result">
     <h3>BaCLNS</h3>
     <p>Python package for automated backstepping controller design, simulation, and analysis.</p>
@@ -127,7 +127,7 @@ title: Home
       <a href="#">PyPI</a>
       <a href="#">Docs</a>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -145,7 +145,7 @@ title: Home
     </div>
   </div>
 
-   <div class="card">
+   <!-- <div class="card">
     <img class="project-media" src="/assets/gifs/spannotation/overview.png" alt="Spannotation abstract">
   <h3>Spannotation</h3>
   <p>Open-source image annotation tool for semantic segmentation in autonomous navigation, achieving annotation in ~6 seconds per image — over 6× faster than existing tools.</p>
@@ -160,7 +160,7 @@ title: Home
     <a href="https://github.com/sof-danny/spannotation" target="_blank">Code</a>
     <a href="https://pypi.org/project/spannotation/" target="_blank">PyPI</a>
   </div>
-</div>
+</div> -->
 
 <div class="card">
     <img class="project-media" src="/assets/gifs/tuav/multiple_trajectory.gif" alt="TUAV demo">
@@ -179,3 +179,4 @@ title: Home
 </div>
 
 </div>
+
