@@ -31,7 +31,7 @@ The central challenge in robotics perception is not computation, it is **uncerta
 
 The figure below illustrates both effects. The blue line shows ideal motion, a robot that moves exactly as commanded. The dotted red line shows realistic motion, where each step accumulates a small random error.
 
-![Simple vs Noisy Motion](/assets/blog/perception/chap_1/noisy_motion.png)
+<img src="/assets/blog/perception/chap_1/noisy_motion.png" alt="Simple vs Noisy Motion" style="width:100%; max-width:600px; display:block; margin:0 auto;">
 
 ---
 
