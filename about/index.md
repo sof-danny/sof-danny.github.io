@@ -234,4 +234,16 @@ permalink: /about/
     <p>Long drives with good music.</p>
   </div>
 
+ <div class="card">
+  <img class="project-media" src="/assets/misc/dareword.jpg" alt="Dareword logo">
+  <h3>Writing & Mentoring</h3>
+  <p>Writing on productivity that started in high school and grew into the DareWord peer mentoring program at the University of Ilorin, Nigeria — which has mentored over 1,000 students across 9 years.</p>
+  <div class="links">
+    <a href="https://dareword.wordpress.com/dareword-publications/dwodd/" target="_blank">Writing</a>
+    <a href="https://www.dsaunilorin.com.ng/" target="_blank">Program</a>
+  </div>
 </div>
+
+</div>
+
+
