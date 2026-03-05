@@ -53,4 +53,9 @@ permalink: /projects/
     <p>Control barrier function quadratic programming framework for safe operation of tethered UAVs under tether length constraints.</p>
   </div>
 
+  <div class="project-card">
+    <h3><a href="/papers/ur3_safety.pdf" target="_blank">Safety System for UR3</a></h3>
+    <p>Vision-based safety system for a UR3 robotic arm using HSV color blob detection to identify human presence and automatically halt motion.</p>
+  </div>
+
 </div>
