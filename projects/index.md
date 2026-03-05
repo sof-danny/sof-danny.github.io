@@ -21,3 +21,8 @@ permalink: /projects/
   <p>Open-source image annotation tool for semantic segmentation in autonomous navigation — 6× faster than existing tools, validated with 98.27% U-Net accuracy.</p>
 </div>
 
+<div class="project-card">
+  <h3><a href="https://arxiv.org/pdf/2412.09502" target="_blank">Tethered UAV Nonlinear Backstepping Control</a></h3>
+  <p>Nonlinear cascade controller for a tethered UAV with catenary tether and ground winch — centimeter-scale hover accuracy with robust disturbance rejection under stochastic wind.</p>
+</div>
+
