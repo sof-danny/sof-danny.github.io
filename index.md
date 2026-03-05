@@ -91,9 +91,9 @@ title: Home
   <div class="card">
        <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="UR3 VR demo">
     <h3>VR Teleoperation for UR3</h3>
-    <p>VR interface for UR3 end-effector control with a ROS 2 bridge.</p>
+    <p>VR interface for UR3 end-effector control with a ROS bridge.</p>
     <div class="meta">
-      <span class="tag">VR</span><span class="tag">Manipulation</span><span class="tag">ROS 2</span>
+      <span class="tag">VR</span><span class="tag">Manipulation</span><span class="tag">ROS</span>
     </div>
     <div class="links">
       <a href="/papers/vr_ur3.pdf" target="_blank">Write-up</a>
