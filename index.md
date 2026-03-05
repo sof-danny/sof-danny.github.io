@@ -76,7 +76,7 @@ title: Home
 
   <div class="card">
        <img class="project-media" src="/assets/gifs/px4_cbf.gif" alt="PX4 CBF demo">
-    <h3>PX4 + ROS 2 CBF Safety Filter</h3>
+    <h3>Control Barrier Function (CBF) Safety Filter for UAV Obstacle Avoidance</h3>
     <p>Constraint-enforcing safety filter for PX4-controlled drone via control barrier functions.</p>
     <div class="meta">
       <span class="tag">CBF</span><span class="tag">PX4</span><span class="tag">ROS 2</span>
@@ -90,10 +90,10 @@ title: Home
 
   <div class="card">
        <img class="project-media" src="/assets/gifs/vr_ur3.gif" alt="UR3 VR demo">
-    <h3>VR Teleoperation for UR3</h3>
+    <h3>AR-Based, Gesture Guided Human Robot Interaction</h3>
     <p>VR interface for UR3 end-effector control with a ROS bridge.</p>
     <div class="meta">
-      <span class="tag">VR</span><span class="tag">Manipulation</span><span class="tag">ROS</span>
+      <span class="tag">UR3</span><span class="tag">Manipulation</span><span class="tag">ROS</span><span class="tag">MetaQuest3 VR</span>
     </div>
     <div class="links">
       <a href="/papers/vr_ur3.pdf" target="_blank">Write-up</a>
@@ -104,7 +104,7 @@ title: Home
 
   <div class="card">
        <img class="project-media" src="/assets/gifs/husky_cbf.gif" alt="Husky Depth CBF demo">
-    <h3>Husky Depth-Camera CBF Safety</h3>
+    <h3>Depth-Aware CBF Safety on a Clearpath Husky</h3>
     <p>Perception-to-safety pipeline using depth sensing and barrier-style constraints.</p>
     <div class="meta">
       <span class="tag">Perception</span><span class="tag">CBF</span><span class="tag">Mobile Robot</span>
