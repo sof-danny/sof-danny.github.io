@@ -28,6 +28,7 @@ main, .page-content { max-width: var(--max); margin: 0 auto; }
   gap: 16px;
   margin-top: 18px;
 }
+
 .card {
   border: 1px solid #e7e7e7;
   border-radius: 14px;

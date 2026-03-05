@@ -129,7 +129,7 @@ title: Home
     </div>
   </div>
 
-</div>
+
 
  <div class="card">
       <img class="project-media" src="/assets/gifs/gem_e2/gem_e2_lidar_pose.gif" alt="Gem e2 demo">
@@ -177,13 +177,5 @@ title: Home
     <a href="https://github.com/AUVSL/TUAV_system_control" target="_blank">Code</a>
   </div>
 </div>
-  
-<!-- <h2 class="section-title">Next C++ Build</h2> -->
 
-<!-- <div class="card">
-  <h3>C++ LiDAR Mapping / Localization (in progress)</h3>
-  <p>ROS 2 node: scan matching (ICP/NDT), voxel filtering, local submap management, runtime benchmarks.</p>
-  <div class="meta">
-    <span class="tag">C++</span><span class="tag">LiDAR</span><span class="tag">Mapping</span><span class="tag">ROS 2</span>
-  </div>
-</div> -->
+</div>
