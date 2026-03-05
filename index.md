@@ -69,8 +69,8 @@ title: Home
     </div>
     <div class="links">
       <a href="/projects/dist_to_ped/">Write-up</a>
-      <a href="#">Video</a>
-      <a href="#">Code</a>
+      <a href="https://drive.google.com/file/d/1dnmHyaLZsYDYlAtzy72SAb3eZUjuYix9/view?usp=sharing">Video</a>
+      <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Controlling%20distance%20to%20a%20pedestrian/Code">Code</a>
     </div>
   </div>
 
@@ -84,7 +84,7 @@ title: Home
     <div class="links">
       <a href="https://github.com/sof-danny/px4-ros2-cbf-safety-filter">Code</a>
       <a href="/projects/px4-cbf/">Write-up</a>
-        <a href="">Video</a>
+        <a href="https://drive.google.com/file/d/1Plm4kVgCq5tP8E9XnPCEGSzsnyfAlZP6/view?usp=sharing">Video</a>
     </div>
   </div>
 
@@ -110,8 +110,8 @@ title: Home
       <span class="tag">Perception</span><span class="tag">CBF</span><span class="tag">Mobile Robot</span>
     </div>
     <div class="links">
-      <a href="/projects/#husky-cbf">Write-up</a>
-      <a href="#">Video</a>
+      <!-- <a href="/projects/#husky-cbf">Write-up</a> -->
+      <a href="https://drive.google.com/file/d/1FvPmmdOXzjMrN9dJuLUZ_tppwugBukiE/view?usp=sharing">Video</a>
     </div>
   </div>
 
