@@ -61,11 +61,11 @@ title: Home
   </div>
 
   <div class="card">
-      <img class="project-media" src="/assets/gifs/gem_e2_nav.gif" alt="Gem e2 demo">
-    <h3>GEM e2 Autonomy Suite</h3>
-    <p>Pedestrian distance control, LiDAR positioning, and Voronoi obstacle-map navigation.</p>
+      <img class="project-media" src="/assets/gifs/gem_e2/ped_distance.gif" alt="Ped distance demo">
+    <h3>GEM e2 Pedestrian Distance Control</h3>
+    <p>PID-based pedestrian follower using bounding box height as a distance proxy.</p>
     <div class="meta">
-      <span class="tag">Autonomous Driving</span><span class="tag">LiDAR</span><span class="tag">Navigation</span>
+      <span class="tag">Autonomous Driving</span><span class="tag">Stereo Camera</span><span class="tag">Navigation Safety</span>
     </div>
     <div class="links">
       <a href="/projects/#gem-e2">Write-up</a>
@@ -130,7 +130,21 @@ title: Home
   </div>
 
 </div>
-multim
+
+ <div class="card">
+      <img class="project-media" src="/assets/gifs/gem_e2_nav.gif" alt="Gem e2 demo">
+    <h3>GEM e2 LiDAR Positioning</h3>
+    <p>LiDAR-based box detection with grid density clustering, geometric waypoint planning through the gap, and pure pursuit GPS tracking on a GEM autonomous vehicle. </p>
+    <div class="meta">
+      <span class="tag">Autonomous Driving</span><span class="tag">LiDAR</span><span class="tag">Localization & Planning</span>
+    </div>
+    <div class="links">
+        <a href="/projects/gem-lidar/">Write-up</a>
+      <a href="https://drive.google.com/file/d/1_hzEcZu6WF5EkOcxCFEr3qmJTYHPZuDt/view?usp=sharing">Video</a>
+      <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Vehicle%20Lidar%20based%20positioning/Code">Code</a>
+    </div>
+  </div>
+  
 <!-- <h2 class="section-title">Next C++ Build</h2> -->
 
 <!-- <div class="card">
