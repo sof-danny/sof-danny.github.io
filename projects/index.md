@@ -44,7 +44,7 @@ permalink: /projects/
   </div>
 
   <div class="project-card">
-    <h3><a href="#">Multi-Agent Infrastructure Inspection</a></h3>
+    <h3><a href="https://drive.google.com/file/d/13R-W2K8bESukeauyLw2ZlrKn6mjwQMIj/view?usp=sharing">Multi-Agent Infrastructure Inspection</a></h3>
     <p>Coordinated planning and task allocation for scalable infrastructure monitoring in simulation (Proprietary).</p>
   </div>
 
