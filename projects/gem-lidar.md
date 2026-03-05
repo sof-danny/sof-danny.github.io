@@ -4,7 +4,7 @@ title: GEM Autonomous Vehicle — LiDAR-Based Box Localization
 permalink: /projects/gem-lidar/
 ---
 
-## GEM Autonomous Vehicle — LiDAR-Based Box Localization
+<img class="project-media" src="/assets/gifs/gem_e2/gem_e2_lidar_pose.gif" alt="Gem e2 demo">
 
 <div class="callout">
 LiDAR-based obstacle detection with grid density clustering, geometric waypoint planning, and pure pursuit GPS tracking on a Polaris GEM autonomous vehicle.
