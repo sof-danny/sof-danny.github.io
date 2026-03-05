@@ -16,3 +16,8 @@ permalink: /projects/
   </div>
 </div>
 
+<div class="project-card">
+  <h3><a href="https://arxiv.org/abs/2402.18084" target="_blank">Spannotation</a></h3>
+  <p>Open-source image annotation tool for semantic segmentation in autonomous navigation — 6× faster than existing tools, validated with 98.27% U-Net accuracy.</p>
+</div>
+

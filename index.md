@@ -132,7 +132,7 @@ title: Home
 </div>
 
  <div class="card">
-      <img class="project-media" src="/assets/gifs/gem_e2_nav.gif" alt="Gem e2 demo">
+      <img class="project-media" src="/assets/gifs/gem_e2/gem_e2_lidar_pose.gif" alt="Gem e2 demo">
     <h3>GEM e2 LiDAR Positioning</h3>
     <p>LiDAR-based box detection with grid density clustering, geometric waypoint planning through the gap, and pure pursuit GPS tracking on a GEM autonomous vehicle. </p>
     <div class="meta">
@@ -144,6 +144,39 @@ title: Home
       <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Vehicle%20Lidar%20based%20positioning/Code">Code</a>
     </div>
   </div>
+
+   <div class="card">
+    <img class="project-media" src="/assets/gifs/spannotation/overview.png" alt="Spannotation abstract">
+  <h3>Spannotation</h3>
+  <p>Open-source image annotation tool for semantic segmentation in autonomous navigation, achieving annotation in ~6 seconds per image — over 6× faster than existing tools.</p>
+  <div class="meta">
+    <span class="tag">Semantic Segmentation</span>
+    <span class="tag">Computer Vision</span>
+    <span class="tag">Autonomous Navigation</span>
+    <span class="tag">Open Source</span>
+  </div>
+  <div class="links">
+    <a href="https://arxiv.org/abs/2402.18084" target="_blank">Paper</a>
+    <a href="https://github.com/sof-danny/spannotation" target="_blank">Code</a>
+    <a href="https://pypi.org/project/spannotation/" target="_blank">PyPI</a>
+  </div>
+</div>
+
+<div class="card">
+    <img class="project-media" src="/assets/gifs/tuav/multiple_trajectory.gif" alt="TUAV demo">
+  <h3>Tethered UAV Nonlinear Backstepping Control</h3>
+  <p>Nonlinear cascade controller for a tethered UAV connected to a ground winch via a flexible catenary tether — achieving centimeter-scale hover accuracy and robust disturbance rejection under stochastic wind.</p>
+  <div class="meta">
+    <span class="tag">Nonlinear Control</span>
+    <span class="tag">UAV</span>
+    <span class="tag">Backstepping</span>
+    <span class="tag">Lyapunov Stability</span>
+  </div>
+  <div class="links">
+    <a href="https://arxiv.org/pdf/2412.09502" target="_blank">Paper</a>
+    <a href="https://github.com/AUVSL/TUAV_system_control" target="_blank">Code</a>
+  </div>
+</div>
   
 <!-- <h2 class="section-title">Next C++ Build</h2> -->
 
