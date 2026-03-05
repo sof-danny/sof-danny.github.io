@@ -213,11 +213,11 @@ permalink: /about/
   <div class="card">
     <img class="project-media" src="/assets/misc/fifa.JPG" alt="FIFA">
     <h3>FIFA</h3>
-    <p>Taking the beautiful game to the screen — competitive FIFA sessions when the real thing isn't on.</p>
+    <p>Competitive FIFA sessions with friends.</p>
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/baking.JPG" alt="Baking">
+    <img class="project-media" src="/assets/misc/baking.jpg" alt="Baking">
     <h3>Baking</h3>
     <p>Baking with my girlfriend. Our kitchen experiments range from decent to surprisingly good.</p>
   </div>
@@ -231,7 +231,7 @@ permalink: /about/
   <div class="card">
     <img class="project-media" src="/assets/misc/driving.jpg" alt="Driving">
     <h3>Driving</h3>
-    <p>Long drives, good music — a great way to decompress.</p>
+    <p>Long drives with good music.</p>
   </div>
 
 </div>
