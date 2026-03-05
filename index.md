@@ -56,9 +56,7 @@ title: Home
       <span class="tag">Multi-agent</span><span class="tag">Planning</span><span class="tag">ROS 2</span> <span class="tag">Gazebo</span>
     </div>
     <div class="links">
-      <!-- <a href="/projects/#multi-agent">Write-up</a> -->
       <a href="https://drive.google.com/file/d/13R-W2K8bESukeauyLw2ZlrKn6mjwQMIj/view?usp=sharing">Video</a>
-      <!-- <a href="#">Code</a> -->
     </div>
   </div>
 
