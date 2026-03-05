@@ -121,7 +121,7 @@ title: Home
     <h3>GEM e2 LiDAR Positioning</h3>
     <p>LiDAR-based box detection with grid density clustering, geometric waypoint planning through the gap, and pure pursuit GPS tracking on a GEM autonomous vehicle. </p>
     <div class="meta">
-      <span class="tag">Autonomous Driving</span><span class="tag">LiDAR</span><span class="tag">Localization & Planning</span>
+      <span class="tag">Autonomous Driving</span><span class="tag">LiDAR mapping</span><span class="tag">SLAM</span>
     </div>
     <div class="links">
         <a href="/projects/gem-lidar/">Write-up</a>
