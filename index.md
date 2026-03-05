@@ -14,7 +14,7 @@ title: Home
     Hello and welcome. I’m Samuel Folorunsho, a graduate student at the University of Illinois Urbana-Champaign (UIUC). 
     My work focuses on perception-driven autonomy, motion planning, safe control, and optimal trajectory generation 
     for multi-agent robotic systems. I design and implement end-to-end autonomy stacks using ROS2 and C++/Python, 
-    and evaluate them across both physical robotic platforms and modern simulation environments.
+    and evaluate them across both physical robotic platforms and modern simulation environments. Please see  for more info about me. 
   </p>
 
   <div class="contact">

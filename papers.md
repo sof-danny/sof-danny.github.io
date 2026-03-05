@@ -5,6 +5,10 @@ permalink: /papers/
 ---
 
 <h1>Papers</h1>
+<p class="bio">
+  For the most up-to-date list, visit my 
+  <a href="https://scholar.google.com/citations?user=vsYAVNYAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.
+</p>
 <h2 class="section-title">Published</h2>
 <div class="grid">
 
