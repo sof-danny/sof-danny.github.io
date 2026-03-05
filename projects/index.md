@@ -58,4 +58,18 @@ permalink: /projects/
     <p>Vision-based safety system for a UR3 robotic arm using HSV color blob detection to identify human presence and automatically halt motion.</p>
   </div>
 
+  <div class="project-card">
+  <h3>L1 Adaptive Control of a Tractor Cart System</h3>
+  <p>L1 adaptive control of a tractor-cart system implemented in MATLAB.</p>
+  <div class="meta">
+    <span class="tag">Adaptive Control</span>
+    <span class="tag">MATLAB</span>
+    <span class="tag">Control Systems</span>
+  </div>
+  <div class="links">
+    <a href="/papers/Tractor_cart_controller_design.pdf" target="_blank">Slides</a>
+    <a href="https://github.com/sof-danny/L1-adaptive-control/tree/main" target="_blank">Code</a>
+  </div>
+</div>
+
 </div>
