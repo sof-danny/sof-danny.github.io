@@ -165,6 +165,23 @@ title: Home
   </div>
 </div>
 
+<div class="card">
+  <img class="project-media" src="/assets/gifs/ur3/robot_safety.gif" alt="Human Robot Colab demo">
+  <h3>Safety System for Human-Robot Interaction</h3>
+  <p>Vision-based safety system for a UR3 robotic arm using HSV color blob detection to identify human presence and automatically halt motion.</p>
+  <div class="meta">
+    <span class="tag">Safety</span>
+    <span class="tag">Perception</span>
+    <span class="tag">Human-Robot Interaction</span>
+    <span class="tag">Camera</span>
+  </div>
+  <div class="links">
+    <a href="https://github.com/sof-danny/Human_Robot_Interaction/tree/main/ece598hri-fa25-mps/ws_hri" target="_blank">Code</a>
+    <a href="https://drive.google.com/file/d/1TekHGW16r6IefxefWsiNgXtQxbZbI4ud/view?usp=sharing" target="_blank">Video</a>
+    <a href="/papers/ur3_safety.pdf" target="_blank">Write-up</a>
+  </div>
+</div>
+
   
 </div>
 
