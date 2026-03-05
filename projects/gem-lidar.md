@@ -12,6 +12,7 @@ LiDAR-based obstacle detection with grid density clustering, geometric waypoint 
 
 <div class="links">
   <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Vehicle%20Lidar%20based%20positioning/Code" target="_blank">Code</a>
+    <a href="https://drive.google.com/file/d/1_hzEcZu6WF5EkOcxCFEr3qmJTYHPZuDt/view?usp=sharing">Video</a>
 </div>
 
 ---
