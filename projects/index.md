@@ -19,7 +19,7 @@ permalink: /projects/
   </div>
 
   <div class="project-card">
-    <h3><a href="/projects/dist_to_ped/">GEM e2 Pedestrian Distance Control</a></h3>
+    <h3><a href="/projects/gem_dist_to_ped/">GEM e2 Pedestrian Distance Control</a></h3>
     <p>PID-based pedestrian follower using bounding box height as a distance proxy.</p>
   </div>
 
