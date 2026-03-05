@@ -7,7 +7,7 @@ tags: [robotics, perception, python, tutorial]
 excerpt: "A from-scratch introduction to robotics perception — why uncertainty matters and how it shapes everything we do in robot state estimation."
 ---
 
-This is the first post in a series on robotics perception using Python's standard scientific computing libraries (numpy, scipy, matplotlib) — no GTSAM, no ROS, just the math from scratch.
+This is the first post in a series on robotics perception using Python's standard scientific computing libraries (numpy, scipy, matplotlib). in this series , we will not be using GTSAM or ROS, we will be focusing just on the math from scratch.
 
 The full tutorial repo is available here: [Intro to Robot Perception (Python)](https://github.com/sof-danny/Intro_to_Robot_Perception_Python)
 
