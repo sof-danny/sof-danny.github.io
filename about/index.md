@@ -223,9 +223,9 @@ permalink: /about/
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/running.jpg" alt="Running">
+    <img class="project-media" src="/assets/misc/running.webp" alt="Running">
     <h3>Running</h3>
-    <p>Early morning runs to clear the head and stay sharp.</p>
+    <p>Running laps for cardio.</p>
   </div>
 
   <div class="card">
