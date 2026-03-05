@@ -161,21 +161,21 @@ permalink: /about/
 <div class="grid">
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/dreaam.jpg" alt="DREAAM Lego Robotics">
+    <img class="project-media" src="/assets/misc/robot_fight.gif" alt="DREAAM Lego Robotics">
     <h3>IMAGINE Lego Robotics Club</h3>
     <p><strong>Volunteer — DREAAM House, Champaign IL</strong></p>
     <p>Weekly mentoring of 4th–6th graders in coding and mechanical design using LEGO robotics kits.</p>
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/wyse.jpg" alt="WYSE">
+    <img class="project-media" src="/assets/misc/WYSE.png" alt="WYSE">
     <h3>Worldwide Youth in Science & Engineering (WYSE)</h3>
     <p><strong>Mentor — High School Scholars Program</strong></p>
     <p>Guided 48 high-school students across two summers in engineering research projects.</p>
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/church.jpg" alt="Twin City Bible Church">
+    <img class="project-media" src="/assets/misc/tcbc.jpeg" alt="Twin City Bible Church">
     <h3>Twin City Bible Church</h3>
     <p><strong>Sound Technician — Urbana, IL</strong></p>
     <p>Set up, operate, and maintain audio systems for weekly church services.</p>
