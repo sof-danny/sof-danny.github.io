@@ -205,19 +205,19 @@ permalink: /about/
 <div class="grid">
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/soccer.jpg" alt="Soccer">
+    <img class="project-media" src="/assets/misc/soccer.JPG" alt="Soccer">
     <h3>Soccer</h3>
-    <p>Playing, watching, and living it — on the pitch and on the couch.</p>
+    <p>Playing and watching.</p>
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/fifa.jpg" alt="FIFA">
+    <img class="project-media" src="/assets/misc/fifa.JPG" alt="FIFA">
     <h3>FIFA</h3>
     <p>Taking the beautiful game to the screen — competitive FIFA sessions when the real thing isn't on.</p>
   </div>
 
   <div class="card">
-    <img class="project-media" src="/assets/misc/baking.jpg" alt="Baking">
+    <img class="project-media" src="/assets/misc/baking.JPG" alt="Baking">
     <h3>Baking</h3>
     <p>Baking with my girlfriend. Our kitchen experiments range from decent to surprisingly good.</p>
   </div>

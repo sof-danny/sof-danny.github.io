@@ -4,8 +4,6 @@ title: "GEM e2 Pedestrian Distance Control"
 permalink: /projects/gem_dist_to_ped/
 ---
 
-# GEM e2 Pedestrian Distance Control
-
 <img src="/assets/gifs/gem_e2/ped_distance.gif" alt="Pedestrian Distance Control Demo" style="width:100%; max-width:600px; display:block; margin:0 auto;">
 
 ## Overview

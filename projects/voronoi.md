@@ -4,8 +4,6 @@ title: "GEM e2 Voronoi Navigation"
 permalink: /projects/voronoi/
 ---
 
-# GEM e2 Voronoi Navigation
-
 <img src="/assets/gifs/gem_e2/voronoi_cropped.gif" alt="Voronoi Navigation Demo" style="width:100%; max-width:600px; display:block; margin:0 auto;">
 
 ## Overview
@@ -46,7 +44,7 @@ The pipeline runs as two parallel ROS nodes:
 
 ---
 
-## Stage 1 — Voronoi Path Planning (`summon_voronoi.py`)
+## Stage 1 — Voronoi Path Planning
 
 ### Obstacle Map
 
@@ -74,7 +72,7 @@ The smoothed path (1000 sampled points) is published as an image message on `/mp
 
 ---
 
-## Stage 2 — Pure Pursuit Control (`summon_control.py`)
+## Stage 2 — Pure Pursuit Control
 
 ### Path Subscription
 
@@ -107,7 +105,7 @@ The vehicle stops and brakes when it comes within 4.0 m of the destination.
 
 ---
 
-## Stage 3 — Pedestrian Safety (`braking.py`)
+## Stage 3 — Pedestrian Safety
 
 In parallel, `braking.py` runs a HOG-based pedestrian detector (OpenCV's default people detector) on every ZED2 camera frame. If a pedestrian is detected with confidence above 0.13, the node publishes a full brake command (`f64_cmd=1.0`) to `/pacmod/as_rx/brake_cmd`, overriding the control node. When the frame is clear, the brake is released.
 
