@@ -69,7 +69,7 @@ title: Home
       <span class="tag">Autonomous Driving</span><span class="tag">Stereo Camera</span><span class="tag">Navigation Safety</span>
     </div>
     <div class="links">
-      <a href="/projects/dist_to_ped/">Write-up</a>
+      <a href="/projects/gem_dist_to_ped/">Write-up</a>
       <a href="https://drive.google.com/file/d/1dnmHyaLZsYDYlAtzy72SAb3eZUjuYix9/view?usp=sharing">Video</a>
       <a href="https://github.com/sof-danny/Gem-Autonomous-Vehicle-ROS-Projects/tree/main/Controlling%20distance%20to%20a%20pedestrian/Code">Code</a>
     </div>
