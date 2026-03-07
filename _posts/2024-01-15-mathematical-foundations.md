@@ -35,12 +35,33 @@ Linear algebra provides the framework for representing and manipulating geometri
 
 ### Key Vector Operations
 
-| Operation | Description |
-|---|---|
-| Magnitude | Length of a vector using the Euclidean norm |
-| Unit Vector | Magnitude-1 vector pointing in the same direction |
-| Dot Product | Measures similarity between two vectors |
-| Cross Product | Vector perpendicular to both inputs (3D only) |
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Magnitude</td>
+      <td>Length of a vector using the Euclidean norm</td>
+    </tr>
+    <tr>
+      <td>Unit Vector</td>
+      <td>Magnitude-1 vector pointing in the same direction</td>
+    </tr>
+    <tr>
+      <td>Dot Product</td>
+      <td>Measures similarity between two vectors</td>
+    </tr>
+    <tr>
+      <td>Cross Product</td>
+      <td>Vector perpendicular to both inputs (3D only)</td>
+    </tr>
+  </tbody>
+</table>
+
 ```python
 import numpy as np
 
@@ -341,12 +362,32 @@ def gradient_descent_example():
 
 ## Summary
 
-| Topic | Key Tools |
-|---|---|
-| Linear Algebra | Vectors, rotation matrices, SVD, eigendecomposition |
-| Probability | Gaussians, Bayes' rule, covariance matrices |
-| Coordinate Systems | Homogeneous transforms, 2D/3D frames |
-| Estimation | Least squares, MLE, gradient descent |
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Key Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linear Algebra</td>
+      <td>Vectors, rotation matrices, SVD, eigendecomposition</td>
+    </tr>
+    <tr>
+      <td>Probability</td>
+      <td>Gaussians, Bayes' rule, covariance matrices</td>
+    </tr>
+    <tr>
+      <td>Coordinate Systems</td>
+      <td>Homogeneous transforms, 2D/3D frames</td>
+    </tr>
+    <tr>
+      <td>Estimation</td>
+      <td>Least squares, MLE, gradient descent</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
